@@ -1642,7 +1642,11 @@ body.ie .ibg img {
           transform: rotate(180deg);
 }
 
-.call {
+
+
+
+
+{
   padding: 260px 0 115px 0;
   position: relative;
 }
@@ -1659,6 +1663,7 @@ body.ie .ibg img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-right: 165px;
+   align-items: center;
 }
 
 .call__title {
