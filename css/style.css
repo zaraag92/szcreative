@@ -1621,7 +1621,7 @@ body.ie .ibg img {
 .swiper-button-arrow--next {
   display: inline-block;
   cursor: pointer;
-  background: url("/fsingle/img/arrow.svg");
+  background: url("img/arrow.svg");
   width: 40px;
   height: 40px;
   margin-top: 51px;
