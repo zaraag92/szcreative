@@ -1146,7 +1146,7 @@ body {
   font-weight: 400;
   margin: 0 auto;
   height: 100%;
-   max-width: 1440px;
+  max-width: 1440px;
 }
 
 body._lock {
@@ -1621,7 +1621,7 @@ body.ie .ibg img {
 .swiper-button-arrow--next {
   display: inline-block;
   cursor: pointer;
-  background: url("img/arrow.svg");
+  background: url("/fsingle/img/arrow.svg");
   width: 40px;
   height: 40px;
   margin-top: 51px;
@@ -1642,11 +1642,7 @@ body.ie .ibg img {
           transform: rotate(180deg);
 }
 
-
-
-
-
-{
+.call {
   padding: 260px 0 115px 0;
   position: relative;
 }
@@ -1662,8 +1658,10 @@ body.ie .ibg img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-right: 165px;
-   align-items: center;
 }
 
 .call__title {
