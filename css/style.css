@@ -1495,6 +1495,8 @@ body.ie .ibg img {
 .branding {
   min-height: 1100px;
   overflow: hidden;
+  line-height: 1;
+  font-size: 0;
 }
 
 .branding__container {
@@ -1611,6 +1613,7 @@ body.ie .ibg img {
 
 .swiper-slide img {
   min-height: 728px;
+  position: relative;
 }
 
 .swiper-button-arrow--previous,
@@ -1639,7 +1642,7 @@ body.ie .ibg img {
 }
 
 .call {
-  padding: 320px 0 115px 0;
+  padding: 260px 0 115px 0;
   position: relative;
 }
 
@@ -1667,6 +1670,12 @@ body.ie .ibg img {
   position: absolute;
   left: -76px;
   bottom: 135px;
+}
+
+@media (min-width: 1500px) {
+  .branding {
+    min-height: 1000px;
+  }
 }
 
 @media (max-width: 1300px) {
