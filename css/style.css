@@ -1559,6 +1559,8 @@ body.ie .ibg img {
 
 .merchandise {
   position: relative;
+  line-height: 1;
+  font-size: 0;
 }
 
 .merchandise__icon {
@@ -1593,8 +1595,6 @@ body.ie .ibg img {
 
 .swiper-slide {
   position: relative;
-  background-position: center;
-  background-size: cover;
 }
 
 .slide-content {
@@ -1675,6 +1675,14 @@ body.ie .ibg img {
 @media (min-width: 1500px) {
   .branding {
     min-height: 1000px;
+  }
+
+  .swiper-slide img {
+    max-height: 200px;
+  }
+
+  .call {
+    padding-top: 500px;
   }
 }
 
